@@ -447,6 +447,7 @@ class PendingSellUnstyled extends Component {
     let edgeTransaction
     try {
       if (!DEV) {
+        await window.edgeProvider.chooseCurrentWallet([info.currencyCode])
         edgeTransaction = await window.edgeProvider.requestSpend([info])
       } else {
         edgeTransaction = {txid: 'blockchain_txn_hash'}
