@@ -48,8 +48,8 @@ export const SUPPORTED_SELL_DIGITAL_CURRENCIES = [
 ]
 
 const edgeUrl = DEV
-  ? 'http://9b8d46c6.ngrok.io'
-  : 'http://9b8d46c6.ngrok.io'
+  ? 'http://8ad6eab5.ngrok.io'
+  : 'http://8ad6eab5.ngrok.io'
 const simplexUrl = DEV
   // ? 'https://sandbox.test-simplexcc.com/payments/new'
   // : 'https://checkout.simplexcc.com/payments/new'
