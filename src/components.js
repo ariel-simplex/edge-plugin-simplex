@@ -452,7 +452,6 @@ class PendingSellUnstyled extends Component {
         edgeTransaction = {txid: 'blockchain_txn_hash'}
         console.log(info)
       }
-      window.alert(JSON.stringify(edgeTransaction))
       await API.executionOrderNotifyStatus(executionOrder, 'completed', info.nativeAmount, edgeTransaction.txid)
     } catch (e) {
       await API.executionOrderNotifyStatus(executionOrder, 'failed')
