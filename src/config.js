@@ -1,6 +1,6 @@
 const SANDBOX = true
 
-export const edgeUrl = 'https://edge-service.integration.test-simplexcc.com/'
+export const edgeUrl = 'https://edge-integration.test-simplexcc.com'
 
 export const simplexUrl = SANDBOX
   ? 'https://sandbox.test-simplexcc.com/payments/new'
